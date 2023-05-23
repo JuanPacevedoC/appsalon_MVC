@@ -1,0 +1,24 @@
+{
+    "name": "user/app-salon_php_mvc_js_sass",
+    "description": "proyecto php, sass, gulp, MVC, SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Clases\\": "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuanPacevedoC",
+            "email": "juanpac1219@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
